@@ -24,7 +24,7 @@ app.use('/api', router)
 
 connect().then(()=>{
     try {
-        app.listen(port, ()=>{
+        app.listen(PORT, ()=>{
             console.log(`Server  connected to http://localhost:${PORT}`);
         })
         
